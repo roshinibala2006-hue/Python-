@@ -1,0 +1,70 @@
+a = 29
+b =30
+data = {
+    "a": a,
+    "b": b,
+    "Total Students": a + b,
+    "Absentees": b,
+    "Present": a
+}
+for key in data:
+    print(f"{key}: {data[key]}")
+
+if data['Present'] + data['Absentees'] == data['Total Students']:
+    print("Attendance is correct.")
+elif data['Present'] + data['Absentees'] > data['Total Students']:
+    print("Attendance is wrong.")
+else:
+    print("Attendance not fully marked.")
+
+output:
+a: 29
+b: 30
+Total Students: 59
+Absentees: 30
+Present: 29
+Attendance is correct.
+
+
+
+
+
+
+numbers = []
+for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
+    numbers.append(i)
+    print(f"list of numbers: {i}")
+
+output:
+list of numbers: 0
+list of numbers: 1
+list of numbers: 2
+list of numbers: 3
+list of numbers: 4
+list of numbers: 5
+list of numbers: 6
+list of numbers: 7
+list of numbers: 8
+list of numbers: 9
+
+
+
+
+
+def check_login():
+    for i in range(1, 4):
+        if input(f"Attempt {i}: Enter your password: ") == "1234":
+            print(f"Login successful on attempt {i}")
+            break
+        print("Wrong password, try again.")
+    else:
+        print("Access denied. Too many failed attempts.")
+check_login()
+
+output:
+Attempt 1: Enter your password: 548
+Wrong password, try again.
+Attempt 2: Enter your password: 98
+Wrong password, try again.
+Attempt 3: Enter your password: 1234
+Login successful on attempt 3

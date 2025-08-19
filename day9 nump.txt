@@ -1,0 +1,54 @@
+1)creating a numpy array:
+             create the array
+2)array of zeros:
+           it create 0 rows and columns
+3)array of ones:
+           it create 1 rows and columns
+4)random numbers in ndarrays:
+           refers to arrays
+5)an array of your choice:
+           we can select or define any array you want
+6)identity matrix:
+       square matrix
+7)evenly spaced ndarray:
+        numpy array diffnc betwn consecutive elements is constant
+8)dimension of nparray:
+           how many levels of indexing
+9)shape of numpy array:
+            dimensions
+10)reshaping of numpy array:
+            changing its shape without change of its data
+11)transpose of numpy array:
+          rearranging the axis
+12indexing and slicing of numpy array:
+         refers to access specific rows,columns
+13)1d numpy array:
+          one dimensional array
+14)2d numpy array:
+          two dimensional array
+15)stacking:
+       multiple arrays together
+16)concatenating:
+      joining two or more arrays end to end without adding new dimensions
+17)broadcasting:
+      expanding the shapes of array during operations
+18)arithmetic operations on numpy array:
+       performing element wise math calc
+19)aggregate function:
+      combines multiple elements into single value
+20)mean:
+     avg value of num
+21)median:
+     mid value in sort num
+22)standard deviation:
+     vary of spread out from the avg
+23)min-max values:
+   min value smallest element
+   max value largest element
+24)sorting:
+   arranging in ascending or descending method
+25)matrix multiplication:
+     math operation using two different multiple matrixs
+
+
+       
